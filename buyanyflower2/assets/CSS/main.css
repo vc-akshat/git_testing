@@ -1,0 +1,43 @@
+.main__content{
+    margin-top: 25px;
+    background-color: #F7F7F7;
+}
+.ribbin__content{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ribbin__content_main{
+    color: #9E458F;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.ribbin__subcontent{
+    font-size: 18px;
+}
+
+@media screen and (max-width:1280px){
+    .main__content{
+        margin-top: 10px;
+    }
+    .ribbin__content{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .ribbin__content_main{
+        color: #9E458F;
+        font-size: 22px;
+    }
+    
+    .ribbin__subcontent{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main__content{
+        display: none;
+    }
+}

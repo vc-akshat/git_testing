@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div class="heading">CRUD operation</div>
+    <div class="crud-form">
+        <form action="">
+            <input type="text" placeholder="Enter your name" id="name"><br>
+            <br>
+            <input type="number" placeholder="Enter your age" id="age"><br>
+            <br>
+            <input type="text" placeholder="Enter your city" id="city"><br>
+            <br>
+            <input type="text" placeholder="Enter your state" id="state"><br>
+            <br>
+            <input type="number" placeholder="Enter your number" id="number"><br>
+            <br>
+            <input type="submit" id="submit" value="Add" onclick="add()">  
+           
+        </form>
+        <span id="editbtn"></span>
+    </div>
+    <button id="incress" onclick="compare('name')">sort</button>
+    <!-- <button id="decress" onclick="compare()">bottom to top</button> -->
+    <div class="crud-table">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Id</th>    
+                    <th>Name</th>    
+                    <th>Age</th>
+                    <th>city</th>
+                    <th>state</th>
+                    <th>Number</th>
+                    <th>delete</th>
+                    <th>edit</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

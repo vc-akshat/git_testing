@@ -1,0 +1,6 @@
+@import url('../CSS/color.css');
+
+a{
+    text-decoration: none;
+    color: var(--header-text-color);
+}

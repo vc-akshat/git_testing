@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+.container{
+    max-width: 100%;
+}
+.header{
+    background-color: #FCFBFE;
+}
+.header-top{
+    background-color: #9E458F;
+    height: 40px;
+}
+.header-top-font{
+    text-align: right;
+    width: 100%;
+}
+.header-top-font p{
+    padding: 12px 0px;
+    font-size: 14px;  
+}
+.header-top-font p span{
+    position: relative;
+    padding-left: 30px;
+}
+.header-top-font p span:before{
+    content: "";
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    left: 14px;
+    opacity: 0.6;
+}
+.header_middle{
+    margin: 30px 0px; 
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+}
+.header_middle .searchbar{
+    width: 79.5%;
+    display: flex;
+    align-items: center;   
+}
+
+.header_middle .searchbar .main_search{
+    margin-left: 42px;
+}
+.header_middle .searchbar .main_search input{
+    padding: 0 16px;
+    height: 40px;
+    width: 459px;
+    border: 1px solid #89888C;
+    border-radius: 5px;
+    
+}
+.header_middle .searchbar .location input{
+    height: 40px;
+    width: 276px;
+    border-radius: 5px;
+    border: 1px solid #89888C; 
+    padding-left: 37px;   
+}
+.header_middle .searchbar .location{
+    position: relative;
+    margin-left: 30px;
+}
+.header_middle .searchbar .location .loc_icon{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+
+.header_middle .searchbar_right{
+    width: 20.5%;
+    text-align: end;
+    margin: auto;
+    color: #89888c;  
+}
+.header_middle .searchbar_right .login{
+    padding-left: 36px;
+    position: relative;
+}
+.header_middle .searchbar_right .login::before{
+    content: "";
+    background-color: #89888c;
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    left: 18px;
+    top: -10px;
+}
+
+.navigationbar{
+    background-color: #F6ECF5;
+    padding: 21px 57px;
+}
+
+.navigationbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.container1 .flex_class{
+    display: flex;
+    padding-top: 30px;
+}
+
+/* .container1 .flex_class .left_side{
+    max-width: 100%;
+} */
+
+.container1 .flex_class .center_side{
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+/* .container1 .flex_class .right_side{
+    max-width: 100%;
+} */
+
+.container1 .slide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 .slide .slide_1{
+    background-color: #FFD8BE;
+}
+
+.container1 .slide .slide_2{
+    background-color: #DCEDC1;
+}
+
+.container1 .slide .slide_3{
+    background-color: #FFC6BF;
+}
+
+.container1 .slide .slide_4{
+    background-color: #D4F0F1;
+}
+
+.container1 .slide .slide_5{
+    background-color: #E2D0CD;
+}
+
+.container1 .slide .slide_6{
+    background-color: #AAE1C0;
+}
+
+.container1 .slide .slide_7{
+    background-color: #FFD3B6;
+}
+
+.container1 .slide .slide_8{
+    background-color: #E1C2E0;
+}
+
+.container1 .slide .slide_9{
+    background-color: #CCE2CB;
+}
+
+.s1{
+    color: #E15A00;
+}
+
+.s2{
+    color: #5D9800;
+}
+
+.s3{
+    color: #DB2711;
+}
+
+.s4{
+    color: #138E92;
+}
+
+.s5{
+    color: #9E4F42;
+}
+
+.s6{
+    color: #006A2A;
+}
+
+.s7{
+    color: #DC681C;
+}
+
+.s8{
+    color: #880C85;
+}
+
+.s9{
+    color: #065B2B;
+}
+
+.f_line{
+    height: 151px;
+    text-align: center;
+}
+
+.s_line{
+    text-align: center;
+}
+
+.ribin img{
+    width: 100%;
+}
+
+.container3{
+    height: 793px;
+}
+
+.main1{
+    margin-top: 40px;
+    height: 250px;
+    width: 100%;
+}
+
+.container4{
+    height: 433px;
+    background-color: #89888c;
+}
+
+.container4 .main{
+    background-color: #FCFBFE;
+    height: 379px;
+    display: flex;
+}
+
+.foot_icon{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.foot_icon a i{
+    color: #89888C;
+}
+
+.part_2{
+    margin-left: 152px;
+}
+
+.info_color{
+    color: #89888C;
+}
+
+.part_3{
+    margin-left: 100px;
+}
+
+.part_4{
+    margin-left: 100px;
+}
+
+.foot_search input[type="email"]{
+    padding: 0px 16px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #89888C;
+}
+
+.foot_search input[type="button"]{
+    height: 44px;
+    width: 123px;
+    margin-left: -7px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #9E458F;
+    color: #fff;
+    border: 1px solid #9E458F;
+    cursor: pointer;
+    
+}

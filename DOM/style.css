@@ -1,0 +1,11 @@
+form {
+    margin: auto;
+    width: 10%;
+}
+
+table tr th{
+    border: 1px solid black;
+    width: 100px;
+    /* display: none; */
+}
+

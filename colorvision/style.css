@@ -1,0 +1,15 @@
+@import url('../colorvision/assets/CSS/header.css');
+@import url('../colorvision/assets/CSS/common.css');
+@import url('../colorvision/assets/CSS/fonts.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1115px;
+    margin: 0 auto;
+}

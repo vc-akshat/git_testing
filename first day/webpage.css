@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 15px 25px;
+}
+
+li{   
+    display: inline-block;
+}
+a:hover{
+    background-color: rgb(75, 89, 91);
+    
+}
+.dropdown{
+    display: none;
+    position: fixed;
+}
+.dropdown li{
+    background-color: rgb(86, 159, 165);
+    color: white;
+    display: block;
+    padding: 0;
+    text-align: left;
+    min-width: 160px;
+}
+.dropdown1:hover .dropdown{
+    display: block;
+}
+
+
+
+/* svg{
+    color: rgb(226, 17, 17);
+} */

@@ -1,0 +1,77 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #093545;
+    font-family: 'Poppins', sans-serif;
+}
+.form-main{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 111px);
+    overflow: hidden;
+}
+.formlayout{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color: #fff;
+    font-size: 50px;    
+}
+p{
+    color: #fff;
+    font-size: 20px;  
+}
+.login input{
+    width: 75%;
+    padding: 12px;
+    margin: 10px 0px;
+    background-color: #224957;
+    border: 1px solid #224957;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.login input::placeholder{
+    color: #fff;
+}
+input[type=checkbox]{
+    position: absolute;
+    display: inline;
+    height: 15px;
+    width: 15px;
+    margin-top: 5px;
+}
+input[type=button]{
+    width: 80%;
+    background-color: #20DF7F;
+    cursor: pointer;
+}
+.remember .rememberbox{
+    color: #fff;
+    width: 50%;
+    float: left;
+}
+.forgotpass{
+    color: #20DF7F;
+    width: 50%;
+    float: right;
+}
+label{
+    margin-left: 10%;
+}
+.remember{
+    margin: 10px;
+}
+svg{
+    width: 100%;
+}
+
+
+
+
+

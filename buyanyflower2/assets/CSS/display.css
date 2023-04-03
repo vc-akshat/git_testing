@@ -1,0 +1,35 @@
+.display{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.display_main{
+    display: flex;
+    gap: 10px;
+}
+.display_name{
+    margin-top: 15px;
+    overflow: auto;
+    font-weight: 600;
+}
+.display_price{
+    margin-top: 10px;
+    color: #9E458F;
+    font-weight: 500;
+    font-size: 18px;
+}
+.display_flowertype{
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+@media screen and (max-width:990px){
+    .display_main{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:767px){
+    .display_main{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,182 @@
+.header{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.mob__number{
+    background-color: #9E458F;
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.mob__number a{
+    color: #fff;
+}
+
+.header__navbar{
+    padding-top: 15px;
+    background-color: #fff;
+}
+
+.header__navbar .search{
+    display: flex;
+}
+
+
+.main__search{
+    padding-left: 25px;
+    position: relative;
+}
+
+.main__search input{
+    height: 40px;
+    width: 450px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type='text']{
+    padding-left: 20px;
+}
+
+.main__search span{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+}
+.user__profile{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.user__profile .mycart{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 150%;
+    text-align: end;
+}
+.user__profile .mycart span{
+    margin-right: 5px;
+    justify-content: baseline;
+}
+
+.user__profile .profile{
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+.user__profile .profile span{
+    margin-right: 5px;
+}
+
+.line{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 35px;
+    background-color: #C9D1D5;
+    right: 8%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header__menubar{
+    background: #F6ECF5;
+    margin-top: 15px;
+}
+.menubar_service{
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.menubar_service::-webkit-scrollbar{
+    display: none;
+}
+
+.menubar_service a{   
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menubar_service a:hover{
+    background: #9E458F;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+    .mob__number{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .main__search input{
+        height: 40px;
+        width: 340px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .menubar_service a{   
+        font-weight: 500;
+    }   
+}
+
+@media screen and (max-width: 860px){
+    
+    .main__search input{
+        height: 40px;
+        width: 240px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .header{
+        height: 70px;
+    }
+
+    .header__navbar{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #fff;
+        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    span{
+        top: 18%;
+    }
+
+    .header .mob__number{
+        display: none;
+    }
+
+    .header__navbar .search{
+        justify-content: space-between;
+    }
+    .main__searchinput[type='text']{
+        display: none;
+    }
+    
+    .user__profile{
+        display: none;
+    }
+
+    .header__menubar{
+        display: none;
+    }
+}
