@@ -1,6 +1,10 @@
+.header{
+    position: relative;
+    background-image: linear-gradient(to right, rgb(229, 245, 229), rgb(245, 245, 230), rgb(239, 220, 239), rgb(242, 224, 241)) 
+}
 .navbar{
     display: flex;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .navbar_logo{
     width: 15%;
@@ -10,43 +14,51 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 67%;
 }
 
 .navbar_menu ul{
+    width: 80%;
     display: flex;
+    justify-content: space-around;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0; */
-}
-
-.navbar_menu ul li{
-    /* padding: 0 2.5%; */
 }
 
 .navbar_profile{
-    /* display: flex;
-    justify-content: end;
-    align-items: center; */
-    width: 15%;
+    width: 18%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: end;
 }
 
 .navbar_profile-signin{
-    /* padding: 0 10px; */
+    margin-right: 10px;
 }
 
 .navbar_profile-button button{
-    /* padding: 5px; */
+    padding: 5px 10px;
 }
-
-@media screen and (max-width:1024px) {
+/* .header_main-content{
+    display: flex;
+    position: relative;
+} */
+.header_subcontent{
+    width: 50%;
+}
+.header_content{
+    margin-top: 110px;
+    font-size: 64px;
+    font-weight: 100;
+    width: 60%;
+}
+.header-image{
+    top: 11%;
+    left: 42%;
+    position: absolute;
+}
+@media screen and (max-width:900px) {
     .navbar{
         padding: 0px 20px;
     }
