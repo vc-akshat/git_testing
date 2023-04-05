@@ -1,19 +1,35 @@
-// function add(x="hello", y:number):string{
-//     return x + y;
+// interface Iperson {
+//     name: string;
+//     gender: string;
 // }
-// console.log(add("good",5))
 
-interface objectType{
-    name : string,
-    age : number
-}
+// interface Iemployee extends Iperson{
+//     empCode : number ,
+//     empSkill : string [] , 
+//     empDpt ?: string 
+// }
 
-function objectFirst(){
-    let a:objectType = {
-        name: "akshat",
-        age:22
-    }
-    return a;
+// let details = {
+//     empCode:1,
+//     empSkill: ['reading','traveling'],
+//     name:"Bill",
+//     gender:"Male"}
 
-}
-console.log(objectFirst())
+// console.log(empData(details))
+
+// function empData(data: Iemployee){
+//     let details = {
+//         empCode : 1,
+//         empSkill: ['reading','traveling']
+//     }
+//     console.log(details)
+// }
+
+// let empData1:Iemployee = {
+//     empCode:1,
+//     empSkill: ['reading','traveling'],
+//     empDpt : "computer",
+//     name:"Bill",
+//     gender:"Male"
+// }
+// console.log(empData(empData1))
