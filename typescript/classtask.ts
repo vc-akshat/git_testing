@@ -53,40 +53,95 @@
 
 // shape.rectangle()
 
-interface vehicle{
-    car : string
-    truck : string
-    motorcycle : string
-}
 
-class Vehicle implements vehicle{
-    car: string
-    truck : string
-    motorcycle : string
+// task 4 : Create a TypeScript interface that defines the properties and methods of a vehicle. Implement the interface in classes that represent a car, truck, and motorcycle.
+// interface vehicle{
+//     vehicleName : string
+//     vehicleMethod() : void
+// }
 
-    constructor(car:string, truck:string, motorcycle:string){
-        this.car = car,
-        this.truck = truck,
-        this.motorcycle = motorcycle,
-        this.carMethod(),
-        this.truckMethod(),
-        this.motorcycleMethod()
-    }
-    
-    carMethod(){
-        console.log(this.car + " is a car")
-    }
+// class Car implements vehicle{
 
-    truckMethod(){
-        console.log(this.truck + " is a truck")
-    }
+//     vehicleName : string
+//     constructor(vehicleName : string){
+//         this.vehicleName = vehicleName,
+//         this.vehicleMethod()
+//     }    
+//     vehicleMethod(){
+//         console.log(this.vehicleName + " is a car")
+//     }
+// }
+// class truck implements vehicle{
 
-    motorcycleMethod(){
-        console.log(this.motorcycle + " is a motorcycle")
-    }
+//     vehicleName : string
+//     constructor(vehicleName : string){
+//         this.vehicleName = vehicleName,
+//         this.vehicleMethod()
+//     }  
+//     vehicleMethod(){
+//         console.log(this.vehicleName + " is a truck")
+//     }
+// }
+// class motorcycle implements vehicle{
 
-}
+//     vehicleName : string
+//     constructor(vehicleName : string){
+//         this.vehicleName = vehicleName,
+//         this.vehicleMethod()
+//     }    
+//     vehicleMethod(){
+//         console.log(this.vehicleName + " is a motorcycle")
+//     }
+// }
 
-let vehicleDisplay = new Vehicle("BMW","Tata","Honda")
+// let vehicleDisplay = new Car("BMW")
+// let vehicleDisplay1 = new truck("Tata")
+// let vehicleDisplay2 = new motorcycle("Honda")
 
-console.log(vehicleDisplay)
+// console.log(vehicleDisplay)
+// console.log(vehicleDisplay1)
+// console.log(vehicleDisplay2)
+
+
+// class Game{
+//     play : number
+//     pause : number
+//     end : number
+//     constructor(play: number, pause: number, end: number){
+//         this.play = play,
+//         this.pause = pause,
+//         this.end = end
+//     }
+// }
+
+// let game = new Game(1,0,-1)
+
+// console.log(game)
+
+
+// class Weather{
+//     temperature: number
+//     wind: number
+//     precipitation: number
+//     constructor(temperature: number, wind: number, precipitation: number){
+//         this.temperature = temperature,
+//         this.wind = wind,
+//         this.precipitation = precipitation
+//         this.temp(),
+//         this.windSpeed(),
+//         this.precipitationValue()
+//     }
+
+//     temp(){
+//         console.log(this.temperature + ` temp.`)
+//     }
+//     windSpeed(){
+//         console.log(this.wind + ` wind speed.`)
+//     }
+//     precipitationValue(){
+//         console.log(this.precipitation + ` precipitation.`)
+//     }
+// }
+//  let weatherApp = new Weather(25, 100, 50)
+
+//  console.log(weatherApp)
