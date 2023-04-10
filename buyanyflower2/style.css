@@ -1,10 +1,10 @@
-@import url('../assets/CSS/common.css');
-@import url('../assets/CSS/header.css');
-@import url('../assets/CSS/font.css');
-@import url('../assets/CSS/slider.css');
-@import url('../assets/CSS/main.css');
-@import url('../assets/CSS/display.css');
-@import url('../assets/CSS/footer.css');
+@import url('assets/CSS/common.css');
+@import url('assets/CSS/header.css');
+@import url('assets/CSS/font.css');
+@import url('assets/CSS/slider.css');
+@import url('assets/CSS/main.css');
+@import url('assets/CSS/display.css');
+@import url('assets/CSS/footer.css');
 
 body{
     margin: 0;

@@ -1,0 +1,72 @@
+@import url('css/color.css');
+
+.header{
+    background-color: var(--header);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.nevigationbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.nevigationbar-menu{    
+    padding: 0 15px;   
+}
+.nevigationbar-logo{
+    width: 200px;
+    height: 60px;    
+}
+.nevigationbar-menu-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nevigationbar-menu-list a{
+    padding: 15px 16px;
+}
+
+.nevigationbar-menu-right{
+    display: flex;
+    width: 115px;
+    justify-content: end; 
+}
+
+.nevigationbar-menu-right > div{
+    margin-left: 15px;
+}
+.nevigationbar-menu-icon{
+    display: none;
+}
+@media only screen and (max-width:1200px){
+    .nevigationbar-menu-list a{
+        padding: 15px 10px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .nevigationbar-logo{
+        width: 50%;
+    }
+    .nevigationbar-logo{
+        width: 160px;
+        height: 48px;    
+    }
+    .nevigationbar-menu-right{
+        width: 50%;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
+    .nevigationbar-menu{
+        display: none;
+    }
+
+    .nevigationbar-menu-icon{
+        display: block;
+    }
+}
