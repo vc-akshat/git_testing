@@ -1,0 +1,25 @@
+.bottom-slider-content{
+    margin-top: 50px;
+}
+
+.bottom-slider-content-header{
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    font-weight: 600;
+}
+
+.bottom-slider-content-header span{
+    z-index: 5;
+    position: relative;
+}
+
+.bottom-slider-content-header::after{
+    content: '';
+    width: 10%;
+    border-bottom: solid 2px #c3c3c3;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 1;
+}
