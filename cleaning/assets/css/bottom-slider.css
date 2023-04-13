@@ -5,21 +5,44 @@
 .bottom-slider-content-header{
     text-align: center;
     font-size: 28px;
-    position: relative;
     font-weight: 600;
+    margin-bottom: 70px;
 }
 
-.bottom-slider-content-header span{
-    z-index: 5;
+.content-header{
+    padding-bottom: 35px;
+    margin-bottom: 50px;
     position: relative;
 }
 
-.bottom-slider-content-header::after{
+.content-header::before{
     content: '';
-    width: 10%;
-    border-bottom: solid 2px #c3c3c3;
+    width: 60%;
+    border-bottom: solid 1px #d8d8d8;
     position: absolute;
-    top: 50%;
-    left: 40%;
-    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.content-header::after{
+    content: '';
+    background-color: #d8d8d8;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255);
+}
+
+.content-header-subheading{
+    font-size: 16px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
 }
